@@ -4,12 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>this is my first git</title>
+    <style>
+        .header{
+            
+            background-image: url('images/photo-1750409221671-d925a6d7126c.avif');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .header-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 100px;
+            margin: 100px;
+
+        }
+        .header-container img{
+            height: 30%;
+            width: 20%;
+        }
+        .title{
+            font-size: 30px;
+            color: white;
+            font-weight: 800;
+        }
+        .descripiton{
+            width: 500px;
+            color: white;
+        }
+        .header-info{
+        }
+        .btn{
+            width: 100px;
+            height:40px;
+            border-radius: 40px;
+            border: none;
+            font-size: medium;
+            font-weight: 800;
+        }
+    </style>
+
 </head>
 <body>
     <header class="header">
-        <h3 class="title">this is a traveling website</h3>
-        <p class="title-descripton">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, est quae fugiat dolorum fuga ipsum suscipit, incidunt error voluptatem quo pariatur quidem perferendis iure dignissimos excepturi ea, non sint laboriosam!</p>
-        <button class="btn">log in</button>
+        <div class="header-container">
+            <div class="header-info">
+                <h3 class="title">travel zone</h3>
+                <p class="descripiton">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam harum corrupti vero, optio iure, eaque aliquid asperiores temporibus consequuntur molestias rerum dolore magni dolores ut hic dicta blanditiis obcaecati quam.</p>
+                <button class="btn">login</button>
+            </div>
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+        
     </header>
 </body>
 </html>
